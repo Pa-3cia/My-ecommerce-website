@@ -290,7 +290,7 @@ select:focus{
     padding: 0;
 }
 .single-product .col-2{
-    padding: 20px;
+    padding: 0px;
 }
 .single-product h4{
     margin: 20px 0;
@@ -303,7 +303,7 @@ select:focus{
     margin-top: 20px;
 }
 .single-product input{
-    width: 20px;
+    width: 50px;
     height: 40px;
     padding-left:10px;
     font-size: 20px;
@@ -313,7 +313,7 @@ select:focus{
 input:focus{
     outline: none;
 }
-.single-product fa {
+.single-product .fa{
     color: #ff523b;
     margin-left: 10px;
 
@@ -362,6 +362,16 @@ input:focus{
     }
     .col-2, .col-3, .col-4{
         flex-basis: 100%;
+    }
+    .single-product .row{
+        text-align: left;
+    }
+    .single-product .col-2{
+        padding: 20% 0;
+    }
+    .single-product h1{
+        font-size: 32px;
+        line-height: 22px;
     }
 }
 
